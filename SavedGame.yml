@@ -1,0 +1,1194 @@
+--- !ruby/object:Board
+game_board:
+- - &14 !ruby/object:Tile
+    revealed: true
+    flagged: false
+    bomb: false
+    position:
+    - 0
+    - 0
+    neighbors:
+    - &12 !ruby/object:Tile
+      revealed: true
+      flagged: false
+      bomb: false
+      position:
+      - 0
+      - 1
+      neighbors:
+      - &10 !ruby/object:Tile
+        revealed: true
+        flagged: false
+        bomb: false
+        position:
+        - 0
+        - 2
+        neighbors:
+        - &8 !ruby/object:Tile
+          revealed: true
+          flagged: false
+          bomb: false
+          position:
+          - 0
+          - 3
+          neighbors:
+          - &6 !ruby/object:Tile
+            revealed: true
+            flagged: false
+            bomb: false
+            position:
+            - 0
+            - 4
+            neighbors:
+            - &5 !ruby/object:Tile
+              revealed: true
+              flagged: false
+              bomb: false
+              position:
+              - 0
+              - 5
+              neighbors:
+              - &2 !ruby/object:Tile
+                revealed: true
+                flagged: false
+                bomb: false
+                position:
+                - 0
+                - 6
+                neighbors:
+                - &1 !ruby/object:Tile
+                  revealed: true
+                  flagged: false
+                  bomb: false
+                  position:
+                  - 0
+                  - 7
+                  neighbors:
+                  - &3 !ruby/object:Tile
+                    revealed: true
+                    flagged: false
+                    bomb: false
+                    position:
+                    - 0
+                    - 8
+                    neighbors:
+                    - *1
+                    - &4 !ruby/object:Tile
+                      revealed: true
+                      flagged: false
+                      bomb: false
+                      position:
+                      - 1
+                      - 7
+                      neighbors:
+                      - *2
+                      - *1
+                      - *3
+                      - &22 !ruby/object:Tile
+                        revealed: true
+                        flagged: false
+                        bomb: false
+                        position:
+                        - 1
+                        - 8
+                        neighbors:
+                        - *1
+                        - *3
+                        - *4
+                        - &18 !ruby/object:Tile
+                          revealed: true
+                          flagged: false
+                          bomb: false
+                          position:
+                          - 2
+                          - 7
+                          neighbors:
+                          - &7 !ruby/object:Tile
+                            revealed: true
+                            flagged: false
+                            bomb: false
+                            position:
+                            - 1
+                            - 6
+                            neighbors:
+                            - *5
+                            - *2
+                            - *1
+                            - *4
+                            - &9 !ruby/object:Tile
+                              revealed: true
+                              flagged: false
+                              bomb: false
+                              position:
+                              - 1
+                              - 5
+                              neighbors:
+                              - *6
+                              - *5
+                              - *2
+                              - *7
+                              - &11 !ruby/object:Tile
+                                revealed: true
+                                flagged: false
+                                bomb: false
+                                position:
+                                - 1
+                                - 4
+                                neighbors:
+                                - *8
+                                - *6
+                                - *5
+                                - *9
+                                - &13 !ruby/object:Tile
+                                  revealed: true
+                                  flagged: false
+                                  bomb: false
+                                  position:
+                                  - 1
+                                  - 3
+                                  neighbors:
+                                  - *10
+                                  - *8
+                                  - *6
+                                  - *11
+                                  - &15 !ruby/object:Tile
+                                    revealed: true
+                                    flagged: false
+                                    bomb: false
+                                    position:
+                                    - 1
+                                    - 2
+                                    neighbors:
+                                    - *12
+                                    - *10
+                                    - *8
+                                    - *13
+                                    - &16 !ruby/object:Tile
+                                      revealed: true
+                                      flagged: false
+                                      bomb: false
+                                      position:
+                                      - 1
+                                      - 1
+                                      neighbors:
+                                      - *14
+                                      - *12
+                                      - *10
+                                      - *15
+                                      - &17 !ruby/object:Tile
+                                        revealed: true
+                                        flagged: false
+                                        bomb: false
+                                        position:
+                                        - 1
+                                        - 0
+                                        neighbors:
+                                        - *14
+                                        - *12
+                                        - *16
+                                        - &34 !ruby/object:Tile
+                                          revealed: true
+                                          flagged: false
+                                          bomb: false
+                                          position:
+                                          - 2
+                                          - 0
+                                          neighbors:
+                                          - *17
+                                          - *16
+                                          - &32 !ruby/object:Tile
+                                            revealed: true
+                                            flagged: false
+                                            bomb: false
+                                            position:
+                                            - 2
+                                            - 1
+                                            neighbors:
+                                            - *17
+                                            - *16
+                                            - *15
+                                            - &30 !ruby/object:Tile
+                                              revealed: true
+                                              flagged: false
+                                              bomb: false
+                                              position:
+                                              - 2
+                                              - 2
+                                              neighbors:
+                                              - *16
+                                              - *15
+                                              - *13
+                                              - &29 !ruby/object:Tile
+                                                revealed: true
+                                                flagged: false
+                                                bomb: false
+                                                position:
+                                                - 2
+                                                - 3
+                                                neighbors:
+                                                - *15
+                                                - *13
+                                                - *11
+                                                - &20 !ruby/object:Tile
+                                                  revealed: true
+                                                  flagged: false
+                                                  bomb: false
+                                                  position:
+                                                  - 2
+                                                  - 4
+                                                  neighbors:
+                                                  - *13
+                                                  - *11
+                                                  - *9
+                                                  - &19 !ruby/object:Tile
+                                                    revealed: true
+                                                    flagged: false
+                                                    bomb: false
+                                                    position:
+                                                    - 2
+                                                    - 5
+                                                    neighbors:
+                                                    - *11
+                                                    - *9
+                                                    - *7
+                                                    - &21 !ruby/object:Tile
+                                                      revealed: true
+                                                      flagged: false
+                                                      bomb: false
+                                                      position:
+                                                      - 2
+                                                      - 6
+                                                      neighbors:
+                                                      - *9
+                                                      - *7
+                                                      - *4
+                                                      - *18
+                                                      - *19
+                                                      - &28 !ruby/object:Tile
+                                                        revealed: true
+                                                        flagged: false
+                                                        bomb: false
+                                                        position:
+                                                        - 3
+                                                        - 5
+                                                        neighbors:
+                                                        - *20
+                                                        - *19
+                                                        - *21
+                                                        - &25 !ruby/object:Tile
+                                                          revealed: true
+                                                          flagged: false
+                                                          bomb: false
+                                                          position:
+                                                          - 3
+                                                          - 6
+                                                          neighbors:
+                                                          - *19
+                                                          - *21
+                                                          - *18
+                                                          - &23 !ruby/object:Tile
+                                                            revealed: true
+                                                            flagged: false
+                                                            bomb: false
+                                                            position:
+                                                            - 3
+                                                            - 7
+                                                            neighbors:
+                                                            - *21
+                                                            - *18
+                                                            - &24 !ruby/object:Tile
+                                                              revealed: false
+                                                              flagged: true
+                                                              bomb: true
+                                                              position:
+                                                              - 2
+                                                              - 8
+                                                              neighbors:
+                                                              - *4
+                                                              - *22
+                                                              - *18
+                                                              - *23
+                                                              - &26 !ruby/object:Tile
+                                                                revealed: false
+                                                                flagged: false
+                                                                bomb: false
+                                                                position:
+                                                                - 3
+                                                                - 8
+                                                                neighbors:
+                                                                - *18
+                                                                - *24
+                                                                - *23
+                                                                - &27 !ruby/object:Tile
+                                                                  revealed: false
+                                                                  flagged: false
+                                                                  bomb: false
+                                                                  position:
+                                                                  - 4
+                                                                  - 7
+                                                                  neighbors:
+                                                                  - *25
+                                                                  - *23
+                                                                  - *26
+                                                                  - &47 !ruby/object:Tile
+                                                                    revealed: false
+                                                                    flagged: false
+                                                                    bomb: false
+                                                                    position:
+                                                                    - 4
+                                                                    - 8
+                                                                    neighbors:
+                                                                    - *23
+                                                                    - *26
+                                                                    - *27
+                                                                    - &43 !ruby/object:Tile
+                                                                      revealed: true
+                                                                      flagged: false
+                                                                      bomb: false
+                                                                      position:
+                                                                      - 5
+                                                                      - 7
+                                                                      neighbors:
+                                                                      - &42 !ruby/object:Tile
+                                                                        revealed: false
+                                                                        flagged: false
+                                                                        bomb: false
+                                                                        position:
+                                                                        - 4
+                                                                        - 6
+                                                                        neighbors:
+                                                                        - *28
+                                                                        - *25
+                                                                        - *23
+                                                                        - *27
+                                                                        - &38 !ruby/object:Tile
+                                                                          revealed: false
+                                                                          flagged: false
+                                                                          bomb: true
+                                                                          position:
+                                                                          - 4
+                                                                          - 5
+                                                                          neighbors:
+                                                                          - &31 !ruby/object:Tile
+                                                                            revealed: false
+                                                                            flagged: false
+                                                                            bomb: true
+                                                                            position:
+                                                                            - 3
+                                                                            - 4
+                                                                            neighbors:
+                                                                            - *29
+                                                                            - *20
+                                                                            - *19
+                                                                            - *28
+                                                                            - &33 !ruby/object:Tile
+                                                                              revealed: false
+                                                                              flagged: false
+                                                                              bomb: false
+                                                                              position:
+                                                                              - 3
+                                                                              - 3
+                                                                              neighbors:
+                                                                              - *30
+                                                                              - *29
+                                                                              - *20
+                                                                              - *31
+                                                                              - &35 !ruby/object:Tile
+                                                                                revealed: false
+                                                                                flagged: false
+                                                                                bomb: false
+                                                                                position:
+                                                                                - 3
+                                                                                - 2
+                                                                                neighbors:
+                                                                                - *32
+                                                                                - *30
+                                                                                - *29
+                                                                                - *33
+                                                                                - &36 !ruby/object:Tile
+                                                                                  revealed: false
+                                                                                  flagged: false
+                                                                                  bomb: true
+                                                                                  position:
+                                                                                  - 3
+                                                                                  - 1
+                                                                                  neighbors:
+                                                                                  - *34
+                                                                                  - *32
+                                                                                  - *30
+                                                                                  - *35
+                                                                                  - &37 !ruby/object:Tile
+                                                                                    revealed: false
+                                                                                    flagged: false
+                                                                                    bomb: true
+                                                                                    position:
+                                                                                    - 3
+                                                                                    - 0
+                                                                                    neighbors:
+                                                                                    - *34
+                                                                                    - *32
+                                                                                    - *36
+                                                                                    - &56 !ruby/object:Tile
+                                                                                      revealed: false
+                                                                                      flagged: false
+                                                                                      bomb: false
+                                                                                      position:
+                                                                                      - 4
+                                                                                      - 0
+                                                                                      neighbors:
+                                                                                      - *37
+                                                                                      - *36
+                                                                                      - &55 !ruby/object:Tile
+                                                                                        revealed: false
+                                                                                        flagged: false
+                                                                                        bomb: false
+                                                                                        position:
+                                                                                        - 4
+                                                                                        - 1
+                                                                                        neighbors:
+                                                                                        - *37
+                                                                                        - *36
+                                                                                        - *35
+                                                                                        - &40 !ruby/object:Tile
+                                                                                          revealed: false
+                                                                                          flagged: false
+                                                                                          bomb: false
+                                                                                          position:
+                                                                                          - 4
+                                                                                          - 2
+                                                                                          neighbors:
+                                                                                          - *36
+                                                                                          - *35
+                                                                                          - *33
+                                                                                          - &39 !ruby/object:Tile
+                                                                                            revealed: false
+                                                                                            flagged: false
+                                                                                            bomb: false
+                                                                                            position:
+                                                                                            - 4
+                                                                                            - 3
+                                                                                            neighbors:
+                                                                                            - *35
+                                                                                            - *33
+                                                                                            - *31
+                                                                                            - &41 !ruby/object:Tile
+                                                                                              revealed: false
+                                                                                              flagged: false
+                                                                                              bomb: false
+                                                                                              position:
+                                                                                              - 4
+                                                                                              - 4
+                                                                                              neighbors:
+                                                                                              - *33
+                                                                                              - *31
+                                                                                              - *28
+                                                                                              - *38
+                                                                                              - *39
+                                                                                              - &54 !ruby/object:Tile
+                                                                                                revealed: false
+                                                                                                flagged: false
+                                                                                                bomb: false
+                                                                                                position:
+                                                                                                - 5
+                                                                                                - 3
+                                                                                                neighbors:
+                                                                                                - *40
+                                                                                                - *39
+                                                                                                - *41
+                                                                                                - &45 !ruby/object:Tile
+                                                                                                  revealed: false
+                                                                                                  flagged: false
+                                                                                                  bomb: false
+                                                                                                  position:
+                                                                                                  - 5
+                                                                                                  - 4
+                                                                                                  neighbors:
+                                                                                                  - *39
+                                                                                                  - *41
+                                                                                                  - *38
+                                                                                                  - &44 !ruby/object:Tile
+                                                                                                    revealed: true
+                                                                                                    flagged: false
+                                                                                                    bomb: false
+                                                                                                    position:
+                                                                                                    - 5
+                                                                                                    - 5
+                                                                                                    neighbors:
+                                                                                                    - *41
+                                                                                                    - *38
+                                                                                                    - *42
+                                                                                                    - &46 !ruby/object:Tile
+                                                                                                      revealed: true
+                                                                                                      flagged: false
+                                                                                                      bomb: false
+                                                                                                      position:
+                                                                                                      - 5
+                                                                                                      - 6
+                                                                                                      neighbors:
+                                                                                                      - *38
+                                                                                                      - *42
+                                                                                                      - *27
+                                                                                                      - *43
+                                                                                                      - *44
+                                                                                                      - &53 !ruby/object:Tile
+                                                                                                        revealed: true
+                                                                                                        flagged: false
+                                                                                                        bomb: false
+                                                                                                        position:
+                                                                                                        - 6
+                                                                                                        - 5
+                                                                                                        neighbors:
+                                                                                                        - *45
+                                                                                                        - *44
+                                                                                                        - *46
+                                                                                                        - &50 !ruby/object:Tile
+                                                                                                          revealed: true
+                                                                                                          flagged: false
+                                                                                                          bomb: false
+                                                                                                          position:
+                                                                                                          - 6
+                                                                                                          - 6
+                                                                                                          neighbors:
+                                                                                                          - *44
+                                                                                                          - *46
+                                                                                                          - *43
+                                                                                                          - &48 !ruby/object:Tile
+                                                                                                            revealed: true
+                                                                                                            flagged: false
+                                                                                                            bomb: false
+                                                                                                            position:
+                                                                                                            - 6
+                                                                                                            - 7
+                                                                                                            neighbors:
+                                                                                                            - *46
+                                                                                                            - *43
+                                                                                                            - &49 !ruby/object:Tile
+                                                                                                              revealed: false
+                                                                                                              flagged: false
+                                                                                                              bomb: false
+                                                                                                              position:
+                                                                                                              - 5
+                                                                                                              - 8
+                                                                                                              neighbors:
+                                                                                                              - *27
+                                                                                                              - *47
+                                                                                                              - *43
+                                                                                                              - *48
+                                                                                                              - &51 !ruby/object:Tile
+                                                                                                                revealed: false
+                                                                                                                flagged: true
+                                                                                                                bomb: true
+                                                                                                                position:
+                                                                                                                - 6
+                                                                                                                - 8
+                                                                                                                neighbors:
+                                                                                                                - *43
+                                                                                                                - *49
+                                                                                                                - *48
+                                                                                                                - &52 !ruby/object:Tile
+                                                                                                                  revealed: true
+                                                                                                                  flagged: false
+                                                                                                                  bomb: false
+                                                                                                                  position:
+                                                                                                                  - 7
+                                                                                                                  - 7
+                                                                                                                  neighbors:
+                                                                                                                  - *50
+                                                                                                                  - *48
+                                                                                                                  - *51
+                                                                                                                  - &80 !ruby/object:Tile
+                                                                                                                    revealed: true
+                                                                                                                    flagged: false
+                                                                                                                    bomb: false
+                                                                                                                    position:
+                                                                                                                    - 7
+                                                                                                                    - 8
+                                                                                                                    neighbors:
+                                                                                                                    - *48
+                                                                                                                    - *51
+                                                                                                                    - *52
+                                                                                                                    - &70 !ruby/object:Tile
+                                                                                                                      revealed: true
+                                                                                                                      flagged: false
+                                                                                                                      bomb: false
+                                                                                                                      position:
+                                                                                                                      - 8
+                                                                                                                      - 7
+                                                                                                                      neighbors:
+                                                                                                                      - &69 !ruby/object:Tile
+                                                                                                                        revealed: true
+                                                                                                                        flagged: false
+                                                                                                                        bomb: false
+                                                                                                                        position:
+                                                                                                                        - 7
+                                                                                                                        - 6
+                                                                                                                        neighbors:
+                                                                                                                        - *53
+                                                                                                                        - *50
+                                                                                                                        - *48
+                                                                                                                        - *52
+                                                                                                                        - &65 !ruby/object:Tile
+                                                                                                                          revealed: true
+                                                                                                                          flagged: false
+                                                                                                                          bomb: false
+                                                                                                                          position:
+                                                                                                                          - 7
+                                                                                                                          - 5
+                                                                                                                          neighbors:
+                                                                                                                          - &64 !ruby/object:Tile
+                                                                                                                            revealed: false
+                                                                                                                            flagged: false
+                                                                                                                            bomb: false
+                                                                                                                            position:
+                                                                                                                            - 6
+                                                                                                                            - 4
+                                                                                                                            neighbors:
+                                                                                                                            - *54
+                                                                                                                            - *45
+                                                                                                                            - *44
+                                                                                                                            - *53
+                                                                                                                            - &60 !ruby/object:Tile
+                                                                                                                              revealed: false
+                                                                                                                              flagged: false
+                                                                                                                              bomb: false
+                                                                                                                              position:
+                                                                                                                              - 6
+                                                                                                                              - 3
+                                                                                                                              neighbors:
+                                                                                                                              - &57 !ruby/object:Tile
+                                                                                                                                revealed: false
+                                                                                                                                flagged: false
+                                                                                                                                bomb: false
+                                                                                                                                position:
+                                                                                                                                - 5
+                                                                                                                                - 2
+                                                                                                                                neighbors:
+                                                                                                                                - *55
+                                                                                                                                - *40
+                                                                                                                                - *39
+                                                                                                                                - *54
+                                                                                                                                - &58 !ruby/object:Tile
+                                                                                                                                  revealed: false
+                                                                                                                                  flagged: false
+                                                                                                                                  bomb: false
+                                                                                                                                  position:
+                                                                                                                                  - 5
+                                                                                                                                  - 1
+                                                                                                                                  neighbors:
+                                                                                                                                  - *56
+                                                                                                                                  - *55
+                                                                                                                                  - *40
+                                                                                                                                  - *57
+                                                                                                                                  - &59 !ruby/object:Tile
+                                                                                                                                    revealed: false
+                                                                                                                                    flagged: false
+                                                                                                                                    bomb: false
+                                                                                                                                    position:
+                                                                                                                                    - 5
+                                                                                                                                    - 0
+                                                                                                                                    neighbors:
+                                                                                                                                    - *56
+                                                                                                                                    - *55
+                                                                                                                                    - *58
+                                                                                                                                    - &62 !ruby/object:Tile
+                                                                                                                                      revealed: false
+                                                                                                                                      flagged: false
+                                                                                                                                      bomb: false
+                                                                                                                                      position:
+                                                                                                                                      - 6
+                                                                                                                                      - 0
+                                                                                                                                      neighbors:
+                                                                                                                                      - *59
+                                                                                                                                      - *58
+                                                                                                                                      - &61 !ruby/object:Tile
+                                                                                                                                        revealed: false
+                                                                                                                                        flagged: false
+                                                                                                                                        bomb: false
+                                                                                                                                        position:
+                                                                                                                                        - 6
+                                                                                                                                        - 1
+                                                                                                                                        neighbors:
+                                                                                                                                        - *59
+                                                                                                                                        - *58
+                                                                                                                                        - *57
+                                                                                                                                        - &63 !ruby/object:Tile
+                                                                                                                                          revealed: false
+                                                                                                                                          flagged: false
+                                                                                                                                          bomb: false
+                                                                                                                                          position:
+                                                                                                                                          - 6
+                                                                                                                                          - 2
+                                                                                                                                          neighbors:
+                                                                                                                                          - *58
+                                                                                                                                          - *57
+                                                                                                                                          - *54
+                                                                                                                                          - *60
+                                                                                                                                          - *61
+                                                                                                                                          - &74 !ruby/object:Tile
+                                                                                                                                            revealed: false
+                                                                                                                                            flagged: false
+                                                                                                                                            bomb: false
+                                                                                                                                            position:
+                                                                                                                                            - 7
+                                                                                                                                            - 1
+                                                                                                                                            neighbors:
+                                                                                                                                            - *62
+                                                                                                                                            - *61
+                                                                                                                                            - *63
+                                                                                                                                            - &67 !ruby/object:Tile
+                                                                                                                                              revealed: false
+                                                                                                                                              flagged: false
+                                                                                                                                              bomb: true
+                                                                                                                                              position:
+                                                                                                                                              - 7
+                                                                                                                                              - 2
+                                                                                                                                              neighbors:
+                                                                                                                                              - *61
+                                                                                                                                              - *63
+                                                                                                                                              - *60
+                                                                                                                                              - &66 !ruby/object:Tile
+                                                                                                                                                revealed: false
+                                                                                                                                                flagged: false
+                                                                                                                                                bomb: false
+                                                                                                                                                position:
+                                                                                                                                                - 7
+                                                                                                                                                - 3
+                                                                                                                                                neighbors:
+                                                                                                                                                - *63
+                                                                                                                                                - *60
+                                                                                                                                                - *64
+                                                                                                                                                - &68 !ruby/object:Tile
+                                                                                                                                                  revealed: false
+                                                                                                                                                  flagged: false
+                                                                                                                                                  bomb: true
+                                                                                                                                                  position:
+                                                                                                                                                  - 7
+                                                                                                                                                  - 4
+                                                                                                                                                  neighbors:
+                                                                                                                                                  - *60
+                                                                                                                                                  - *64
+                                                                                                                                                  - *53
+                                                                                                                                                  - *65
+                                                                                                                                                  - *66
+                                                                                                                                                  - &73 !ruby/object:Tile
+                                                                                                                                                    revealed: false
+                                                                                                                                                    flagged: false
+                                                                                                                                                    bomb: true
+                                                                                                                                                    position:
+                                                                                                                                                    - 8
+                                                                                                                                                    - 3
+                                                                                                                                                    neighbors:
+                                                                                                                                                    - *67
+                                                                                                                                                    - *66
+                                                                                                                                                    - *68
+                                                                                                                                                    - &72 !ruby/object:Tile
+                                                                                                                                                      revealed: false
+                                                                                                                                                      flagged: false
+                                                                                                                                                      bomb: false
+                                                                                                                                                      position:
+                                                                                                                                                      - 8
+                                                                                                                                                      - 4
+                                                                                                                                                      neighbors:
+                                                                                                                                                      - *66
+                                                                                                                                                      - *68
+                                                                                                                                                      - *65
+                                                                                                                                                      - &71 !ruby/object:Tile
+                                                                                                                                                        revealed: true
+                                                                                                                                                        flagged: false
+                                                                                                                                                        bomb: false
+                                                                                                                                                        position:
+                                                                                                                                                        - 8
+                                                                                                                                                        - 5
+                                                                                                                                                        neighbors:
+                                                                                                                                                        - *68
+                                                                                                                                                        - *65
+                                                                                                                                                        - *69
+                                                                                                                                                        - &79 !ruby/object:Tile
+                                                                                                                                                          revealed: true
+                                                                                                                                                          flagged: false
+                                                                                                                                                          bomb: false
+                                                                                                                                                          position:
+                                                                                                                                                          - 8
+                                                                                                                                                          - 6
+                                                                                                                                                          neighbors:
+                                                                                                                                                          - *65
+                                                                                                                                                          - *69
+                                                                                                                                                          - *52
+                                                                                                                                                          - *70
+                                                                                                                                                          - *71
+                                                                                                                                                        - *72
+                                                                                                                                                      - *73
+                                                                                                                                                    - &77 !ruby/object:Tile
+                                                                                                                                                      revealed: false
+                                                                                                                                                      flagged: false
+                                                                                                                                                      bomb: false
+                                                                                                                                                      position:
+                                                                                                                                                      - 8
+                                                                                                                                                      - 2
+                                                                                                                                                      neighbors:
+                                                                                                                                                      - *74
+                                                                                                                                                      - *67
+                                                                                                                                                      - *66
+                                                                                                                                                      - *73
+                                                                                                                                                      - &76 !ruby/object:Tile
+                                                                                                                                                        revealed: false
+                                                                                                                                                        flagged: false
+                                                                                                                                                        bomb: true
+                                                                                                                                                        position:
+                                                                                                                                                        - 8
+                                                                                                                                                        - 1
+                                                                                                                                                        neighbors:
+                                                                                                                                                        - &75 !ruby/object:Tile
+                                                                                                                                                          revealed: false
+                                                                                                                                                          flagged: false
+                                                                                                                                                          bomb: false
+                                                                                                                                                          position:
+                                                                                                                                                          - 7
+                                                                                                                                                          - 0
+                                                                                                                                                          neighbors:
+                                                                                                                                                          - *62
+                                                                                                                                                          - *61
+                                                                                                                                                          - *74
+                                                                                                                                                          - &78 !ruby/object:Tile
+                                                                                                                                                            revealed: false
+                                                                                                                                                            flagged: true
+                                                                                                                                                            bomb: false
+                                                                                                                                                            position:
+                                                                                                                                                            - 8
+                                                                                                                                                            - 0
+                                                                                                                                                            neighbors:
+                                                                                                                                                            - *75
+                                                                                                                                                            - *74
+                                                                                                                                                            - *76
+                                                                                                                                                          - *76
+                                                                                                                                                        - *74
+                                                                                                                                                        - *67
+                                                                                                                                                        - *77
+                                                                                                                                                        - *78
+                                                                                                                                                  - *72
+                                                                                                                                                  - *71
+                                                                                                                                                - *67
+                                                                                                                                                - *77
+                                                                                                                                                - *73
+                                                                                                                                                - *72
+                                                                                                                                              - *74
+                                                                                                                                              - *76
+                                                                                                                                              - *77
+                                                                                                                                              - *73
+                                                                                                                                            - *75
+                                                                                                                                            - *78
+                                                                                                                                            - *76
+                                                                                                                                            - *77
+                                                                                                                                          - *67
+                                                                                                                                          - *66
+                                                                                                                                        - *62
+                                                                                                                                        - *75
+                                                                                                                                        - *74
+                                                                                                                                        - *67
+                                                                                                                                      - *75
+                                                                                                                                      - *74
+                                                                                                                                    - *61
+                                                                                                                                  - *62
+                                                                                                                                  - *61
+                                                                                                                                  - *63
+                                                                                                                                - *61
+                                                                                                                                - *63
+                                                                                                                                - *60
+                                                                                                                              - *54
+                                                                                                                              - *45
+                                                                                                                              - *64
+                                                                                                                              - *63
+                                                                                                                              - *67
+                                                                                                                              - *66
+                                                                                                                              - *68
+                                                                                                                            - *66
+                                                                                                                            - *68
+                                                                                                                            - *65
+                                                                                                                          - *53
+                                                                                                                          - *50
+                                                                                                                          - *69
+                                                                                                                          - *68
+                                                                                                                          - *72
+                                                                                                                          - *71
+                                                                                                                          - *79
+                                                                                                                        - *71
+                                                                                                                        - *79
+                                                                                                                        - *70
+                                                                                                                      - *52
+                                                                                                                      - *80
+                                                                                                                      - &81 !ruby/object:Tile
+                                                                                                                        revealed: true
+                                                                                                                        flagged: false
+                                                                                                                        bomb: false
+                                                                                                                        position:
+                                                                                                                        - 8
+                                                                                                                        - 8
+                                                                                                                        neighbors:
+                                                                                                                        - *52
+                                                                                                                        - *80
+                                                                                                                        - *70
+                                                                                                                      - *79
+                                                                                                                    - *81
+                                                                                                                  - *69
+                                                                                                                  - *79
+                                                                                                                  - *70
+                                                                                                                  - *81
+                                                                                                                - *80
+                                                                                                            - *51
+                                                                                                            - *50
+                                                                                                            - *69
+                                                                                                            - *52
+                                                                                                            - *80
+                                                                                                          - *53
+                                                                                                          - *65
+                                                                                                          - *69
+                                                                                                          - *52
+                                                                                                        - *64
+                                                                                                        - *68
+                                                                                                        - *65
+                                                                                                        - *69
+                                                                                                      - *50
+                                                                                                      - *48
+                                                                                                    - *45
+                                                                                                    - *64
+                                                                                                    - *53
+                                                                                                    - *50
+                                                                                                  - *54
+                                                                                                  - *60
+                                                                                                  - *64
+                                                                                                  - *53
+                                                                                                - *57
+                                                                                                - *63
+                                                                                                - *60
+                                                                                                - *64
+                                                                                              - *45
+                                                                                              - *44
+                                                                                            - *40
+                                                                                            - *57
+                                                                                            - *54
+                                                                                            - *45
+                                                                                          - *55
+                                                                                          - *58
+                                                                                          - *57
+                                                                                          - *54
+                                                                                        - *56
+                                                                                        - *59
+                                                                                        - *58
+                                                                                        - *57
+                                                                                      - *59
+                                                                                      - *58
+                                                                                    - *55
+                                                                                  - *56
+                                                                                  - *55
+                                                                                  - *40
+                                                                                - *55
+                                                                                - *40
+                                                                                - *39
+                                                                              - *40
+                                                                              - *39
+                                                                              - *41
+                                                                            - *39
+                                                                            - *41
+                                                                            - *38
+                                                                          - *28
+                                                                          - *25
+                                                                          - *42
+                                                                          - *41
+                                                                          - *45
+                                                                          - *44
+                                                                          - *46
+                                                                        - *44
+                                                                        - *46
+                                                                        - *43
+                                                                      - *27
+                                                                      - *47
+                                                                      - *49
+                                                                      - *46
+                                                                      - *50
+                                                                      - *48
+                                                                      - *51
+                                                                    - *49
+                                                                  - *42
+                                                                  - *46
+                                                                  - *43
+                                                                  - *49
+                                                                - *47
+                                                            - *26
+                                                            - *25
+                                                            - *42
+                                                            - *27
+                                                            - *47
+                                                          - *28
+                                                          - *38
+                                                          - *42
+                                                          - *27
+                                                        - *31
+                                                        - *41
+                                                        - *38
+                                                        - *42
+                                                      - *25
+                                                      - *23
+                                                    - *20
+                                                    - *31
+                                                    - *28
+                                                    - *25
+                                                  - *29
+                                                  - *33
+                                                  - *31
+                                                  - *28
+                                                - *30
+                                                - *35
+                                                - *33
+                                                - *31
+                                              - *32
+                                              - *36
+                                              - *35
+                                              - *33
+                                            - *34
+                                            - *37
+                                            - *36
+                                            - *35
+                                          - *37
+                                          - *36
+                                        - *32
+                                      - *34
+                                      - *32
+                                      - *30
+                                    - *32
+                                    - *30
+                                    - *29
+                                  - *30
+                                  - *29
+                                  - *20
+                                - *29
+                                - *20
+                                - *19
+                              - *20
+                              - *19
+                              - *21
+                            - *19
+                            - *21
+                            - *18
+                          - *4
+                          - *22
+                          - *24
+                          - *21
+                          - *25
+                          - *23
+                          - *26
+                        - *24
+                      - *7
+                      - *21
+                      - *18
+                      - *24
+                    - *22
+                  - *2
+                  - *7
+                  - *4
+                  - *22
+                - *5
+                - *9
+                - *7
+                - *4
+              - *6
+              - *11
+              - *9
+              - *7
+            - *8
+            - *13
+            - *11
+            - *9
+          - *10
+          - *15
+          - *13
+          - *11
+        - *12
+        - *16
+        - *15
+        - *13
+      - *14
+      - *17
+      - *16
+      - *15
+    - *17
+    - *16
+  - *12
+  - *10
+  - *8
+  - *6
+  - *5
+  - *2
+  - *1
+  - *3
+- - *17
+  - *16
+  - *15
+  - *13
+  - *11
+  - *9
+  - *7
+  - *4
+  - *22
+- - *34
+  - *32
+  - *30
+  - *29
+  - *20
+  - *19
+  - *21
+  - *18
+  - *24
+- - *37
+  - *36
+  - *35
+  - *33
+  - *31
+  - *28
+  - *25
+  - *23
+  - *26
+- - *56
+  - *55
+  - *40
+  - *39
+  - *41
+  - *38
+  - *42
+  - *27
+  - *47
+- - *59
+  - *58
+  - *57
+  - *54
+  - *45
+  - *44
+  - *46
+  - *43
+  - *49
+- - *62
+  - *61
+  - *63
+  - *60
+  - *64
+  - *53
+  - *50
+  - *48
+  - *51
+- - *75
+  - *74
+  - *67
+  - *66
+  - *68
+  - *65
+  - *69
+  - *52
+  - *80
+- - *78
+  - *76
+  - *77
+  - *73
+  - *72
+  - *71
+  - *79
+  - *70
+  - *81
